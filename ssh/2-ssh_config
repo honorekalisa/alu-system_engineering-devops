@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# bash script to configure ssh client to connect to a server wthout a password
+Host * 
+        IndentityFile ~/.ssh/school
+        PasswordAuthentication no
